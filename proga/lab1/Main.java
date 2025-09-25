@@ -29,11 +29,10 @@ class Main{
     static void printMatrix(double[][] w) {
         for (double[] w1 : w) {
             for (double n : w1) {
-                System.out.printf("%.3f", w1);
+                System.out.printf("%.3f", n);
                 System.out.print(" ");
             }
             System.out.println();
         }
     }
-
 }
